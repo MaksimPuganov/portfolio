@@ -1,0 +1,11 @@
+body{
+	background-color: purple;
+}
+.header {
+    color: green;
+}
+
+.text {
+	color: white;
+    font-style: italic;
+}
