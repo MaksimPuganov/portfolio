@@ -6,16 +6,7 @@ body{
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%;
 }
-/*
-.header {
-    color: green;
-}
 
-.text {
-	color: white;
-    font-style: italic;
-}
-*/
 .socials-item {
     background: -webkit-linear-gradient(90deg, #e7e5e4 0%, #faf9f9 94%, #ffffff 100%);
     background: -moz-linear-gradient(90deg, #e7e5e4 0%, #faf9f9 94%, #ffffff 100%);
@@ -32,50 +23,6 @@ body{
     display:inline-block;
     vertical-align: middle;
 }
-/*.vk {
-    background-image: url(../img/vk-icon.png);
-    width: 15px;
-    height: 18px;
-    margin-left: 11px;
-    margin-bottom: -16px;
-}
-.vk:hover {
-    background-image:url(../img/vk-icon-hover.png);
-}
-.tw {
-    background-image: url(../img/tw-icon.png);
-    width: 24px;
-    height: 17px;
-    margin-left: 6px;
-    margin-bottom: -15px;
-}
-.tw:hover {
-    background-image:url(../img/tw-icon-hover.png);
-}
-.fb {
-    background-image:url(../img/fb-icon.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 10px;
-    height: 21px;
-    margin-left: 13px;
-    margin-bottom: -17px;
-}
-.fb:hover {
-    background-image: url(../img/fb-hover.png);
-}
-.git {
-    background-image: url(../img/git-icon.png);
-    width: 29px;
-    height: 22px;
-    margin-left: 4px;
-    margin-bottom: -16px;
-}
-.git:hover {
-    background-image:url(../img/git-icon-hover.png);
-}*/
-
-
 
 .clearfix:before,
 .clearfix:after {
