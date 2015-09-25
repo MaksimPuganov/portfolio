@@ -1,15 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Сайт портфолио</title>
-    <link rel="stylesheet" href="bower/normalize-css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <h1>Здесь будет сайт портфолио</h1>
+<html lang="ru-RU">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title></title>
+     <!--SEO -->
+     <meta name="description" content="Protfolio">
+     <meta name="keywords" content="portfolio">
+     <meta name="author" content="Maksim Puganov">
+     <!-- favicon -->
+
+     <!-- vendor CSS -->
+    <link href="bower/normalize-css/normalize.css" rel="stylesheet">
+    <!-- font CSS -->
+    <link rel="stylesheet" href="">
+
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/social.css">
     <!-- JS -->
+    <script src="bower/modernizer/modernizr.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+ </head>
+ <body>
+    <!--[if lt IE 8]>
+    <p class="browsehappy">Ваш браузер <strong>устарел</strong>.
+    Пожалуйста<a href="http://browsehappy.com/">обновите</a> его.</p>
+    <![endif]-->
+    <div class="wrapper">
+       <div class="main-content">
+           <header class="page-header">
+               <div class="container-big">
+                   <a class="header-logo-link">
+                       <img src="img/logo.png" alt="logo" class="logo-img">
+                       <span class="header-logo-text">Сайт портофолио</span>
+                   </a>
+                   <ul class="socials">
+                       <li class="socials-item">
+                           <a href="https://vk.com" target="_blank" class="social-link "><i class="social-icon social-vk-icon"></i></a>
+                        </li>
+                       <li class="socials-item">
+                           <a href="https://twitter.com" target="_blank" class="social-link "><i class="social-icon social-tw-icon"></i></a>
+                       </li>
+                       <li class="socials-item">
+                           <a href="https://ru-ru.facebook.com" target="_blank" class="social-link "><i class="social-icon social-fb-icon"></i></a>
+                       </li>
+                       <li class="socials-item">
+                           <a href="https://github.com" target="_blank" class="social-link "><i class="social-icon social-git-icon"></i></a>
+                        </li>
+                   </ul>
+               </div>
+           </header>
+       </div>
+       <div class="container">
+        <aside>
+            <ul class="menu">
+                <li class="actived"><a href="">Обо мне</a></li>
+                <li><a href="">Мои работы</a></li>
+                <li><a href="">Связаться со мной</a></li>
+            </ul>
+            <ul class="contacts">
+                <li class="email"><a href="mailto:puganov.maksim@ya.ru">puganov.maksim@ya.ru</a></li>
+                <li class="phone"><a href="">+79854490247</a></li>
+                <li class="skype"><a href="">sza_max</a></li>
+            </ul>
+        </aside>
+        <div class="info">
+            <section class="about">
+                <h1>Основная работа</h1>
+                <div class="table">
+                    <div class="row">
+                        <div class="cell">
+                            <div class="photo">
+                                <img src="img/photo.png" align="middle" alt="">
+                            </div>                            
+                        </div>
+                        <div class="cell">
+                            <span>Меня зовут:</span>
+                            <p>Пуганов Максим Владимирович</p>
+                            <span>Мой возраст:</span>
+                            <p>34 года</p>
+                            <span>Мой город:</span>
+                            <p>Красногорск МО, Россия</p>
+                            <span>Моя специализвция:</span>
+                            <p>FRONTEND разработчик</p>
+                            <span>Ключевые навыки:</span>
+                            <p>HTML, CSS, JavaScript, GIT, GULP, PHP, ANGULAR, XML</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="work">
+                <h1>Опыт работы</h1>
+                <div class="table">
+                    <div class="row">
+                        <div class="cell">
+                            <!-- <img src="img/briefcase.png" align="middle" alt=""> -->
+                        </div>
+                        <div class="cell">
+                            <span>"ИП Пупкин" - Продавец</span>
+                            <p>Сентябрь-Октябрь 2008</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            <!-- <img src="img/briefcase.png" align="middle" alt=""> -->
+                        </div>
+                        <div class="cell">
+                            <span>ООО "Рога и Копыта" - Администратора</span>
+                            <p>июнь 2008 - октябрь 2010</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="edu">
+                <h1>Образование</h1>
+                <div class="table">
+                    <div class="row">
+                        <div class="cell">
+                            <!-- <img src="img/academic_cap.png" class="cap" align="middle" alt=""> -->
+                        </div>
+                        <div class="cell">
+                                <span>Институт</span>
+                                <p>Сентябрь-Октябрь 2008</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            <!-- <img src="img/paper.png" class="paper" align="middle" alt=""> -->
+                        </div>
+                        <div class="cell">
+                                <span>Курсы</span>
+                                <p>июнь 2008 - октябрь 2010</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </div>
+    
+    <footer class="page-footer">
+        <div class="container">
+            <div class="lock"><a href="/login.html" class="lock-inner"></a><span>Вход</span></div>
+            <p class="copyright">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</p>
+        </div>
+    </footer>
+    <!-- vendor JS -->
     <script src="bower/jquery/dist/jquery.js"></script>
+    <!-- JS -->
     <script src="js/main.js"></script>
-</body>
+ </body>
 </html>
+ 
