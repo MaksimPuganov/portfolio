@@ -1,7 +1,7 @@
 {
-  "name": "loftschool_dz1",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Выпускной проект №1",
+  "description": "Выпускной проект №1 portfolio",
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.9.5",
@@ -10,10 +10,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaksimPuganov/loftschool_dz1.git"
+    "url": "git+https://github.com/MaksimPuganov/portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/MaksimPuganov/loftschool_dz1/issues"
+    "url": "https://github.com/MaksimPuganov/portfolio/issues"
   },
-  "homepage": "https://github.com/MaksimPuganov/loftschool_dz1#readme"
+  "homepage": "https://github.com/MaksimPuganov/portfolio#readme"
 }
