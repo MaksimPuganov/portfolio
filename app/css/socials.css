@@ -1,0 +1,43 @@
+.socialbut {
+	margin: 0;
+	padding: 0;
+	min-width: 260px;
+	position: absolute;
+	right: 0;
+	top: 36px;
+}
+.socials-item  {
+	list-style: none;
+	display: inline-block;
+	height: 48px;
+	width: 48px;
+	margin-left: 19px;
+}
+
+.socials-item:first-child {
+	margin-left: 0;
+}
+
+.social-link {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9999px;
+	background: url(../img/social-icon.png) no-repeat;
+}
+
+.social-fb { background-position: -5px -5px;}
+
+.social-fb:hover {background-position: -62px -5px;}
+
+.social-github {background-position: -119px -5px;}
+
+.social-github:hover {background-position: -177px -5px;}
+
+.social-tw {background-position: -235px -5px;}
+
+.social-tw:hover {background-position: -293px -5px;}
+
+.social-vk {background-position: -351px -5px;}
+
+.social-vk:hover {background-position: -407px -5px;}
