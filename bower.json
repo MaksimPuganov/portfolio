@@ -1,6 +1,9 @@
 {
   "name": "portfolio",
   "dependencies": {
+  },
+  "devDependencies": {
+    "modernizer": "~2.8.2",
     "jquery": "1.11",
     "normalize-css": "normalize.css#~3.0.3"
   }
