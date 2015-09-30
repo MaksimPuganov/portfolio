@@ -170,48 +170,18 @@ section {
 	margin-bottom: 30px;
 }
 
-.work h2,
-.edu h2 {
+.info h2 {
 	color: #3ba8c0;
-	font-size: 26px;
+	font-size: 27px;
 	font-weight: normal;
 	border-bottom-color: #3ba8c0;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	width: 209px;
+	width: 100%;
 	padding-left: 25px;
 	line-height: 2.5;
 	vertical-align: middle;
 	margin: 0;
-}
-
-/*.table{
-	display: table;
-	padding-top: 20px;
-	padding-bottom: 15px;
-}
-.row {
-	display: table-row;
-}
-.cell {
-	display: table-cell;
-	padding-bottom: 10px;
-}
-*/
-.cell img {
-	padding-left: 55px;
-	padding-right: 35px;
-}
-
-.cell span {
-    color: #4a545d;
-    font-size: 17px;
-    font-weight: 300;
-}
-
-.cell p{
-	font-size: 15px;
-    font-weight: 300;
 }
 
 .cap {
