@@ -1,3 +1,8 @@
+.about {
+	background-color: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+}
 .about .work-block {
 	float: right;
 	width: 400px;
