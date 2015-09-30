@@ -143,6 +143,27 @@ nav {
 	float: left;
 	width: 250px;
 }
+
+.email {
+	background-color: #41b9d4;
+}
+.phone {
+	background-color: #48cbe8;
+}
+.skype {
+	background-color: #51daf8;
+}
+
+.contacts-list {
+	margin: 0;
+	padding: 0;
+}
+
+.contact-item span {
+	display: inline-block;
+	vertical-align:super;
+
+}
 .contact-link {
 	font-family: "fira_sansbook";
 	display: block;
@@ -150,8 +171,10 @@ nav {
 	text-decoration: none;
 	color: white;
 	height: 40px;
-	/*margin-left: 16px;
-	padding: 6px 0px;*/
+}
+
+.contact-link span:hover {
+	text-decoration: underline;
 }
 
 .contacts h1 {
