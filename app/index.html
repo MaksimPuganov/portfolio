@@ -2,12 +2,32 @@
 	<html lang="ru">
 	<head>
 		<meta charset="UTF-8">
-		<title>Тестовое задание для LoftBlog</title>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title></title>
+	    <!--SEO -->
+	    <meta name="description" content="Protfolio">
+	    <meta name="keywords" content="portfolio">
+	    <meta name="author" content="Maksim Puganov">
+	    <!-- favicon -->
+
+		<!-- vendor CSS -->
+	    <link href="bower/normalize-css/normalize.css" rel="stylesheet">
+	    <!-- font CSS -->
 		<link rel="stylesheet" href="fonts/fira/fira.css">
 		<link rel="stylesheet" href="css/socials.css">
 		<link rel="stylesheet" href="css/main.css">
+		<!-- JS -->
+	    <script src="bower/modernizer/modernizr.js"></script>
+	    <!--[if lt IE 9]>
+	    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
 	</head>
 	<body>
+		<!--[if lt IE 8]>
+	    <p class="babout-block clearfixsehappy">Ваш браузер <strong>устарел</strong>.
+	    Пожалуйста<a href="http://babout-block clearfixsehappy.com/">обновите</a> его.</p>
+	    <![endif]-->
 		<div class="wrapper">
 			<div class="main-content">
 				<header>
@@ -33,18 +53,19 @@
 								<li class="nav-item"><a href="/contacts.html" class="nav-link">Связаться со мной</a></li>
 							</ul>
 						</nav>
-					</aside>
-					<address class="contacts">
-						<h3>Контакты</h3>
-						<a href="mailto:puganov.maksim@ya.ru" class="contat-link email">puganov.maksim@ya.ru</a>
-						<a href="callto:sza_max" class="contat-link skype ">sza_max</a>
-						<a href="callto:+79854490247" class="contat-link tel">+79854490247</a>
+						<address class="contacts">
+							<h3>Контакты</h3>
+							<a href="mailto:puganov.maksim@ya.ru" class="contat-link email">puganov.maksim@ya.ru</a>
+							<a href="callto:sza_max" class="contat-link skype ">sza_max</a>
+							<a href="callto:+79854490247" class="contat-link tel">+79854490247</a>
 					</address>
+					</aside>
+					
 					<div class="info">
-						<section class="work">
-							<h1>Опыт работы</h1>
-							<div class="table">
-								<div class="row">
+						<section class="about">
+							<h2>Опыт работы</h2>
+							<div class="about-block clearfix">
+								<div class="about-block clearfix">
 									<div class="cell">
 										<img src="img/briefcase.png" align="middle" alt="">
 									</div>
@@ -53,7 +74,30 @@
 										<p>Сентябрь-Октябрь 2008</p>
 									</div>
 								</div>
-								<div class="row">
+								<div class="about-block clearfix">
+									<div class="cell">
+										<img src="img/briefcase.png" align="middle" alt="">
+									</div>
+									<div class="cell">
+										<span>ООО "Рога и Копыта" - Администратора</span>
+										<p>июнь 2008 - октябрь 2010</p>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="work">
+							<h2>Опыт работы</h2>
+							<div class="table">
+								<div class="about-block clearfix">
+									<div class="cell">
+										<img src="img/briefcase.png" align="middle" alt="">
+									</div>
+									<div class="cell">
+										<span>"ИП Пупкин" - Продавец</span>
+										<p>Сентябрь-Октябрь 2008</p>
+									</div>
+								</div>
+								<div class="about-block clearfix">
 									<div class="cell">
 										<img src="img/briefcase.png" align="middle" alt="">
 									</div>
@@ -66,9 +110,9 @@
 						</section>
 
 						<section class="edu">
-							<h1>Образование</h1>
+							<h2>Образование</h2>
 							<div class="table">
-								<div class="row">
+								<div class="about-block clearfix">
 									<div class="cell">
 										<img src="img/academic_cap.png" class="cap" align="middle" alt="">
 									</div>
@@ -77,7 +121,7 @@
 											<p>Сентябрь-Октябрь 2008</p>
 									</div>
 								</div>
-								<div class="row">
+								<div class="about-block clearfix">
 									<div class="cell">
 											<img src="img/paper.png" class="paper" align="middle" alt="">
 									</div>
@@ -101,8 +145,9 @@
 			</div>
 		</div>
 	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/html5shiv.js"></script>
+	<!-- vendor JS -->
+    <script src="bower/jquery/dist/jquery.js"></script>
+    <!-- JS -->
+    <script src="js/main.js"></script>
 </body>
 </html>
