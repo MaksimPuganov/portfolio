@@ -1,7 +1,7 @@
 .about {
 	background-color: #eff3f7;
 	border-radius: 4px;
-	margin-bottom: 26px;
+	margin-bottom: 30px;
 }
 .about .work-block {
 	float: right;
@@ -9,7 +9,7 @@
 }
 
 .about-block {
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 .work-list {
 	list-style: none;
@@ -56,6 +56,8 @@
 }
 .skills-list {
 	padding: 0;
+	padding-left: 13px;
+    padding-top: 4px;
 }
 .skill-item {
 	display: inline-block;
@@ -72,7 +74,7 @@
 }
 
 .about-block-icon {
-		padding: 0 0 23px 120px;
+		padding: 0 0 13px 125px;
 	    position: relative;
 }
 .info-h3, .info-text{
@@ -84,9 +86,15 @@
 
 .info-h3 {
 	font-size: 17px;
+	/*line-height: 17px;*/
 }
+
 .info-text {
 	font-size: 15px;
+	line-height: 17px;
+}
+.about-info-work-edu {
+	margin-bottom: -4px;
 }
 
 .about-info-work-edu:before {
@@ -100,8 +108,8 @@
 .briefcase:before {
 	background-image: url(../img/briefcase.png);
 	background-repeat: no-repeat;
-	left: 66px;
-    padding-bottom: 30px;
+	left: 76px;
+    padding-bottom: 25px;
     width: 36px;
 	height: 34px;
 }
@@ -131,12 +139,15 @@
 	color: #3ba8c0;
 	font-size: 27px;
 	font-weight: normal;
-	border-bottom-color: #3ba8c0;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
 	width: 300px;
 	padding-left: 25px;
 	line-height: 2.5;
 	vertical-align: middle;
 	margin: 0 0 24px 0;
+}
+
+.info-h2 {
+	content: " ";
+	display: block;
+	border-bottom: 3px solid #3ba8c0;
 }
