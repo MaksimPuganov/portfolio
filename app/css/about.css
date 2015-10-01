@@ -5,9 +5,12 @@
 }
 .about .work-block {
 	float: right;
-	width: 400px;
+	width: 423px;
 }
 
+.about-block {
+	padding-bottom: 20px;
+}
 .work-list {
 	list-style: none;
 	padding: 0;
@@ -50,4 +53,90 @@
 }
 .photo {
 	width: 142px;
+}
+.skills-list {
+	padding: 0;
+}
+.skill-item {
+	display: inline-block;
+	background-image: -webkit-linear-gradient(bottom, #2e8ca2 0%, #2e8ca2 52%, #3ba8c0 53%, #3ba8c0 100%);
+	background-image: linear-gradient(to top, #2e8ca2 0%, #2e8ca2 52%, #3ba8c0 53%, #3ba8c0 100%);
+	border-radius: 2px;
+	font-family: 'proxima_nova_rg';
+	font-size: 14px;
+	font-weight: 600;
+	color: white;
+	padding: 0px 8px 1px 8px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+}
+
+.about-block-icon {
+		padding: 0 0 23px 120px;
+	    position: relative;
+}
+.info-h3, .info-text{
+	margin: 0;
+	padding: 0;
+	font-family: 'fira_sansbook';
+	font-weight: 300;
+}
+
+.info-h3 {
+	font-size: 17px;
+}
+.info-text {
+	font-size: 15px;
+}
+
+.about-info-work-edu:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.briefcase:before {
+	background-image: url(../img/briefcase.png);
+	background-repeat: no-repeat;
+	left: 66px;
+    padding-bottom: 30px;
+    width: 36px;
+	height: 34px;
+}
+
+.cap:before {
+	background-image: url(../img/academic_cap.png);
+	background-repeat: no-repeat;
+	left: 72px;
+    padding-bottom: 25px;
+    width: 42px;
+	height: 23px;
+}
+.paper:before {
+	background-image: url(../img/paper.png);
+	background-repeat: no-repeat;
+	left: 80px;
+    padding-bottom: 30px;
+    width: 36px;
+	height: 34px;
+}
+
+.info {
+	float: right;
+	width: 650px;
+}
+.info-h2 {
+	color: #3ba8c0;
+	font-size: 27px;
+	font-weight: normal;
+	border-bottom-color: #3ba8c0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	width: 300px;
+	padding-left: 25px;
+	line-height: 2.5;
+	vertical-align: middle;
+	margin: 0 0 24px 0;
 }

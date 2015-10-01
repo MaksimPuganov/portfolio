@@ -1,14 +1,14 @@
-html {
-	height: 100%;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 body {
-	height: 100%;
 	font-family: normal "fira_sanslight";
 	font-size:  1em;
 	color: #4a545d;
 	background-image: url(../img/comppattern2.png);
 	background-repeat: repeat;
-	margin-bottom: 80px;
 }
 
 .wrapper {
@@ -16,11 +16,15 @@ body {
 	min-height: 100%;
 	min-width: 970px;
 	height: auto!important;
+	margin: 0 0 -80px 0;
+	padding: 0;
 }
 .wrapper:after {
 	content: " ";
 	height: 80px;
 	display: block;
+	margin: 0;
+	padding: 0;
 }
 .container {
 	width: 960px;
@@ -54,7 +58,7 @@ body {
 	clear: both;
 }
 
-header {
+.header-block {
 	background-color: #eff3f7;
 	height: 119px;
     width: 100%;
@@ -62,7 +66,7 @@ header {
     margin-bottom: 39px;
 }
 
-header:after {
+.header-block:after {
  content: " ";
  display: block;
  background-image: -moz-linear-gradient( 0deg, rgb( 28, 102, 122 ) 0%, rgb( 246, 250, 254 ) 0%, rgb( 216, 216, 216 ) 0%, rgb( 242, 246, 250 ) 0%, rgb( 28, 102, 122 ) 48.364%, rgb( 242, 246, 250 ) 100%);
@@ -93,7 +97,7 @@ header:after {
 	width: 250px;
 }
 
-nav {
+.nav-block {
 	overflow: hidden;
 	background-color: #eff3f7;
 	border-radius: 4px;
@@ -159,7 +163,7 @@ nav {
 	padding: 0;
 }
 
-.contact-item span {
+.contact-text {
 	display: inline-block;
 	vertical-align:super;
 
@@ -173,11 +177,11 @@ nav {
 	height: 40px;
 }
 
-.contact-link span:hover {
+.contact-link .contact-text:hover {
 	text-decoration: underline;
 }
 
-.contacts h1 {
+.contacts-h1 {
 	color: #fbfcfd;
 	font-size: 21px;
 	font-family: "fira_sansbook"
@@ -194,76 +198,8 @@ nav {
 	margin: 0;
 }
 
-.info {
-	float: right;
-	width: 650px;
-}
 
-.work,
-.edu {
-	background-color: #eff3f7;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	margin-bottom: 30px;
-}
-
-.about-block {
-		padding: 0 0 30px 120px;
-	    position: relative;
-}
-.about-info-work-edu h3, .about-info-work-edu p{
-	margin: 0;
-	padding: 0;
-	font-family: "fira_sansbook"
-	font-weight: 300;
-}
-
-.about-info-work-edu h3 {
-	font-size: 17px;
-}
-.about-info-work-edu p {
-	font-size: 15px;
-}
-
-.about-info-work-edu:before {
-	content: " ";
-	background-image: url(../img/briefcase.png);
-	background-repeat: no-repeat;
-	display: block;
-	position: absolute;
-	width: 36px;
-	height: 34px;
-	top: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    left: 66px;
-    padding-bottom: 30px;
-
-}
-
-.info h2 {
-	color: #3ba8c0;
-	font-size: 27px;
-	font-weight: normal;
-	border-bottom-color: #3ba8c0;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	width: 300px;
-	padding-left: 25px;
-	line-height: 2.5;
-	vertical-align: middle;
-	margin: 0 0 24px 0;
-}
-
-.cap {
-	margin-left: -11px !important;
-    padding-left: 63px !important;
-}
-.paper {
-	margin-left: -1px !important;
-    padding-left: 63px !important;
-}
-
-footer::before {
+.footer-block:before {
  content: " ";
  display: block;
  background-image: -moz-linear-gradient( 0deg, rgb( 28, 102, 122 ) 0%, rgb( 246, 250, 254 ) 0%, rgb( 216, 216, 216 ) 0%, rgb( 242, 246, 250 ) 0%, rgb( 28, 102, 122 ) 48.364%, rgb( 242, 246, 250 ) 100%);
@@ -271,15 +207,14 @@ footer::before {
  height: 3px;
 }
 
-
-footer {
+.footer-block {
 	background-color: #eff3f7;
 	height: 80px;
-	width: 100%;
-	margin-top: -80px;
+	width: 100%;/*
+	margin-top: -80px;*/
 }
 
-footer .container {
+.footer-block .container {
 	padding-top: 23px;
 	position: relative;
 }
@@ -310,8 +245,14 @@ footer .container {
 	padding-left: 24px;
 }
 
-.unlock  {
+.lock-inner:hover  {
 	background-image: url(../img/unlock.png);
 	background-repeat: no-repeat;
 	text-decoration: underline;
 }
+/*
+.unlock  {
+	background-image: url(../img/unlock.png);
+	background-repeat: no-repeat;
+	text-decoration: underline;
+}*/
