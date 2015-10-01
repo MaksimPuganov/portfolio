@@ -207,6 +207,39 @@ nav {
 	margin-bottom: 30px;
 }
 
+.about-block {
+		padding: 0 0 30px 120px;
+	    position: relative;
+}
+.about-info-work-edu h3, .about-info-work-edu p{
+	margin: 0;
+	padding: 0;
+	font-family: "fira_sansbook"
+	font-weight: 300;
+}
+
+.about-info-work-edu h3 {
+	font-size: 17px;
+}
+.about-info-work-edu p {
+	font-size: 15px;
+}
+
+.about-info-work-edu:before {
+	content: " ";
+	background-image: url(../img/briefcase.png);
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	width: 36px;
+	height: 34px;
+	top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 66px;
+    padding-bottom: 30px;
+
+}
+
 .info h2 {
 	color: #3ba8c0;
 	font-size: 27px;
