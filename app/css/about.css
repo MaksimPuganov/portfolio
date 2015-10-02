@@ -1,7 +1,7 @@
 .about {
 	background-color: #eff3f7;
 	border-radius: 4px;
-	margin-bottom: 30px;
+	margin-bottom: 34px;
 }
 .about .work-block {
 	float: right;
@@ -20,7 +20,10 @@
 .work-info {
 	float: left;
 	margin-left: 25px;
-	max-width: 260;
+	max-width: 250px;
+	font-family: "fira_sansbook";
+	font-size: 15px;
+	overflow: hidden;
 }
 
 .work-item {
@@ -31,12 +34,6 @@
 	font-family: "fira_sansmedium";
 	font-size: 16px;
 	float: left;
-}
-.work-info {
-	font-family: "fira_sansbook";
-	font-size: 15px;
-	overflow: hidden;
-	max-width: 218px;
 }
 
 .image-block {
@@ -56,8 +53,8 @@
 }
 .skills-list {
 	padding: 0;
-	padding-left: 13px;
-    padding-top: 4px;
+	padding-left: 9px;
+    padding-top: 6px;
 }
 .skill-item {
 	display: inline-block;
@@ -68,14 +65,18 @@
 	font-size: 14px;
 	font-weight: 600;
 	color: white;
-	padding: 0px 8px 1px 8px;
+	padding: 0px 13px 1px 8px;
     margin-bottom: 5px;
     margin-right: 8px;
 }
 
 .about-block-icon {
-		padding: 0 0 13px 125px;
+		padding: 0 0 10px 125px;
 	    position: relative;
+}
+
+.about-work, .about-edu {
+	padding-bottom: 15px;
 }
 .info-h3, .info-text{
 	margin: 0;
@@ -91,10 +92,10 @@
 
 .info-text {
 	font-size: 15px;
-	line-height: 17px;
+	/*line-height: 17px;*/
 }
 .about-info-work-edu {
-	margin-bottom: -4px;
+	/*margin-bottom: -12px;*/
 }
 
 .about-info-work-edu:before {
@@ -108,8 +109,8 @@
 .briefcase:before {
 	background-image: url(../img/briefcase.png);
 	background-repeat: no-repeat;
-	left: 76px;
-    padding-bottom: 25px;
+	left: 78px;
+    padding-bottom: 15px;
     width: 36px;
 	height: 34px;
 }
@@ -117,16 +118,16 @@
 .cap:before {
 	background-image: url(../img/academic_cap.png);
 	background-repeat: no-repeat;
-	left: 72px;
-    padding-bottom: 25px;
+	left: 78px;
+    padding-bottom: 18px;
     width: 42px;
 	height: 23px;
 }
 .paper:before {
 	background-image: url(../img/paper.png);
 	background-repeat: no-repeat;
-	left: 80px;
-    padding-bottom: 30px;
+	left: 82px;
+    padding-bottom: 11px;
     width: 36px;
 	height: 34px;
 }
@@ -143,7 +144,7 @@
 	padding-left: 25px;
 	line-height: 2.5;
 	vertical-align: middle;
-	margin: 0 0 24px 0;
+	margin: 0 0 16px 0;
 }
 
 .info-h2 {

@@ -16,12 +16,12 @@ body {
 	min-height: 100%;
 	min-width: 970px;
 	height: auto!important;
-	margin: 0 0 -80px 0;
+	margin: 0 0 -67px 0;
 	padding: 0;
 }
 .wrapper:after {
 	content: " ";
-	height: 80px;
+	height: 84px;
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -37,17 +37,6 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
-/*.text-center {
-	text-align: center;
-}
-
-.pull-left {
-	float: left;
-}
-
-.pull-right {
-	float: right;
-}*/
 
 .container:before, .container:after, .clearfix:before, .clearfix:after {
 	content: " ";
@@ -101,7 +90,7 @@ body {
 	overflow: hidden;
 	background-color: #eff3f7;
 	border-radius: 4px;
-	margin-bottom: 26px;
+	margin-bottom: 22px;
 }
 
 .nav-list {
@@ -228,8 +217,8 @@ body {
 
 .lock {
 	position: absolute;
-	top: 26px;
-	left: 20px;
+	top: 23px;
+	left: 33px;
 }
 
 .lock-inner {

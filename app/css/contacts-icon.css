@@ -3,10 +3,9 @@
     background-repeat: no-repeat;
     /*display: block;*/
     display: inline-block;
-    margin: 0;
-    /*width: 50px;*/
+    margin: 0px 10px 0 10px;
     height: 29px;
-    padding-left: 50px;
+    padding-left: 36px;
 }
 .contacts-email {
    /* width: 21px;
