@@ -140,15 +140,16 @@
 	color: #3ba8c0;
 	font-size: 27px;
 	font-weight: normal;
-	width: 300px;
+	width: 200px;
 	padding-left: 25px;
 	line-height: 2.5;
 	vertical-align: middle;
 	margin: 0 0 16px 0;
-}
-
-.info-h2 {
 	content: " ";
 	display: block;
 	border-bottom: 3px solid #3ba8c0;
+}
+
+.info-h2-main {
+	width: 320px;
 }
