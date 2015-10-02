@@ -37,7 +37,7 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
-.text-center {
+/*.text-center {
 	text-align: center;
 }
 
@@ -47,7 +47,7 @@ body {
 
 .pull-right {
 	float: right;
-}
+}*/
 
 .container:before, .container:after, .clearfix:before, .clearfix:after {
 	content: " ";
