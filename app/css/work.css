@@ -1,0 +1,108 @@
+.gallery {
+	width: 649px;
+	min-height: 640px;
+	background-color: #eff3f7;
+	border-radius: 4px;
+	float: right;
+}
+
+.gallery-item {
+	width: 181px;
+	height: 197px;
+	padding-left: 18px;
+	padding-right: 10px;
+	padding-bottom: 32px;
+	display: inline-block;
+}
+
+.gallery-img {
+	width: 182px;
+	height: 127px;
+	border: 2px solid #3ba8c0;
+	border-radius: 4px;
+	position: relative;
+	margin: 0px auto;
+}
+
+.gallery-text-hover {
+	display: none;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-color: rgba(1, 108, 164, 0.75);
+    text-align: center;
+    color: #fff;    
+    padding: 20px;
+    font-size: 12px;
+}
+
+.gallery-link-hover {
+	margin-top: 32px;
+	margin-left: 35px;
+    display: block;
+    text-decoration: none;
+    color: #eff3f7;
+    border: 2.5px solid #eff3f7;
+	border-radius: 4px;
+	font-size: 12px;
+	width: 66px;
+}
+
+.gallery-img:hover .gallery-text-hover {
+	display: block; 
+    width: 142px;
+    height: 87px;
+    cursor: pointer;
+    border: 2px solid #3ba8c0;
+	border-radius: 4px;
+}
+
+.gallery-link {
+	text-decoration: none;
+	color: #3ba8c0;
+	font-family: 'fira_sansbook';
+	font-size: 13px;
+	font-style: italic;
+	position: relative;
+	top: 10px;
+	right: 35%;
+	float: right;
+}
+
+.gallery-text {
+	position: relative;
+	right: 0%;
+	float: left;
+	font-size: 15px;
+	color: #4a545d;
+
+}
+
+.gallery-img-add {
+	width: 182px;
+	height: 129px;
+	background-color: rgba(236, 251, 255, 0.64);
+	border: 1px dashed #3ba8c0;
+	border-radius: 4px;
+	background-image: url(../img/gallery/icon-gallery-empty.png);
+	background-repeat: no-repeat;
+	background-size: 32px;
+	background-position: 74px 33px;
+	position: relative;
+	margin: 0px auto;	
+	cursor: pointer;
+}
+
+.gallery-link-add{
+	text-decoration: none;
+	color: #3ba8c0;
+	font-family: 'fira_sansbook';
+	font-size: 13px;
+	position: relative;
+	top: 28px;
+}
+.gallery-link-add-text {
+	position: relative;
+	top: -65px;
+	right: -40px;
+}
