@@ -7,7 +7,10 @@
     "browser-sync": "^2.9.5",
     "gulp": "^3.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-concat-css": "^2.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MaksimPuganov/portfolio.git"
