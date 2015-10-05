@@ -102,6 +102,10 @@ body {
 	border-top: 2px solid #3ba8c0;
 	margin: 0 11px;
 }
+
+.nav-item:first-child{
+	border:0
+}
 .actived {
 	background-color: #3ba8c0;
 	margin: 0;
