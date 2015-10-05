@@ -4,7 +4,7 @@ html, body {
     padding: 0;
 }
 body {
-	font-family: normal "fira_sanslight";
+	font-family: normal 'fira_sanslight';
 	font-size:  1em;
 	color: #4a545d;
 	background-image: url(../img/comppattern2.png);
@@ -115,7 +115,7 @@ body {
 }
 
 .nav-link {
-	font-family: "fira_sansbook";
+	font-family: 'fira_sansbook';
 	display: block;
 	font-size: 20px;
 	text-decoration: none;
@@ -158,7 +158,7 @@ body {
 
 }
 .contact-link {
-	font-family: "fira_sansbook";
+	font-family: 'fira_sansbook';
 	display: block;
 	font-size: 17px;
 	text-decoration: none;
@@ -173,7 +173,7 @@ body {
 .contacts-h1 {
 	color: #fbfcfd;
 	font-size: 21px;
-	font-family: "fira_sansbook"
+	font-family: 'fira_sansbook';
 	font-style: normal;
 	font-weight: normal;
 	display: block;
