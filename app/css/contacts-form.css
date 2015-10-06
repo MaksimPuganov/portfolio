@@ -4,6 +4,7 @@
 	background-color: #eff3f7;
 	border-radius: 4px;
 	float: right;
+	margin-bottom: 32px;
 
 }
 
@@ -54,14 +55,14 @@
 .contact-form-lable {
 	float: left;
 }
-.contact-form-lable-name {
+.contact-form-lable-name, .pull-left {
 	float: left;
 	width: 50%;
 }
 
-.contact-form-lable-email {
+.contact-form-lable-email, .pull-right {
 	float: right;
-	width: 50%;
+	width: 47.5%;
 }
 
 .contact-form-lable-capcha {
@@ -113,6 +114,7 @@ textarea:-ms-input-placeholder      {color:#48cbe8;}
 	border: 1px solid #48cbe8;
 	border-radius: 4px;
 	float: left;
+	margin-bottom: 30px;
 }
 
 .contact-form-capcha-text {
@@ -120,17 +122,14 @@ textarea:-ms-input-placeholder      {color:#48cbe8;}
 	font-family: 'ogilvie';
 	font-size: 43px;
 	position: relative;
-	top: 15px;
-	left: 27px;
+	top: 19px;
+	left: 29px;
 
 }
 
 .contact-form-capcha-input-text {
 	width: 192px;
 	height: 32px;
-	/*position: relative;
-	top: 22px;
-	left: 19px;*/
 	float: right;
 	margin-top: 19px;
 }
@@ -146,24 +145,20 @@ textarea:-ms-input-placeholder      {color:#48cbe8;}
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	border:0;
-	/*position: relative;*/
 }
 
-.contact-form-button-send {
+.button-send {
 	background-color: #48cbe8;
 	-webkit-box-shadow: 0px 4px 0px #3ba8c0;
 	-moz-box-shadow:    0px 4px 0px #3ba8c0;
 	box-shadow:         0px 4px 0px #3ba8c0;
-	/*top: 20px;*/
 	float: left;
 }
 
-.contact-form-button-reset {
+.button-reset {
 	background-color: #849db5;
 	-webkit-box-shadow: 0px 4px 0px #687b8f;
 	-moz-box-shadow:    0px 4px 0px #687b8f;
 	box-shadow:         0px 4px 0px #687b8f;
-	/*top: 20px;*/
-	/*left: 50px;*/
 	float: right;
 }
