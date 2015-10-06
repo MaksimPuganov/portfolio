@@ -1,0 +1,126 @@
+.contact-form-block {
+	width: 650px;
+	height: 840px;
+	background-color: #eff3f7;
+	border-radius: 4px;
+	float: right;
+
+}
+
+.contact-form-header {
+	width: 650px;
+	height: 138px;
+	background-color: #48cbe8;
+	padding-top: -30px;
+}
+
+.contact-form-header:after {
+	content: " ";
+	display: block;
+	height: 17px;
+	background-color: #67dffa;
+	position: relative;
+	top: 88%;
+}
+
+.contact-form-h2 {
+	font-size: 27px;
+	font-family: 'fira_sansbook';
+	color: white;
+	margin: 0;
+	position: relative;
+	top: 35%;
+	right: 9%;
+	float: right;
+}
+
+.contact-form {
+	margin: 0;
+	width: 450px;
+	position: relative;
+	top: 50px;
+	left: 18%;
+	/*height: 554px;*/
+}
+
+.contact-form-lable, .contact-form-lable-capcha {
+	color: #959aa8;
+	font-family: 'fira_sansbook';
+	font-size: 19px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+.contact-form-lable {
+	float: left;
+	/*display: block;*/
+}
+
+.contact-form-lable-capcha {
+	/*float: left;*/
+}
+
+input[placeholder]          {color:#48cbe8;}
+input::-moz-placeholder     {color:#48cbe8;}
+input:-moz-placeholder      {color:#48cbe8;}
+input:-ms-input-placeholder {color:#48cbe8;}
+
+.contact-form-input-text, .contact-form-capcha-input-text {
+	width: 184px;
+	height: 31px;
+	background-color: #fbfcfd;
+	border: 1px solid #48cbe8;
+	border-radius: 2px;
+	font-family: 'fira_sansbook';
+	font-size: 13px;
+	padding-left: 10px;
+	color:#48cbe8;
+}
+
+
+
+textarea::-webkit-input-placeholder {color:#48cbe8;}
+textarea::-moz-placeholder          {color:#48cbe8;}/* Firefox 19+ */
+textarea:-moz-placeholder           {color:#48cbe8;}/* Firefox 18- */
+textarea:-ms-input-placeholder      {color:#48cbe8;}
+
+.contact-form-textarea {
+	resize: none;
+	width: 402px;
+	height: 169px;
+	background-color: #fbfcfd;
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	float: left;
+	font-family: 'fira_sansbook';
+	font-size: 13px;
+	line-height: 16px;
+	padding-left: 10px;
+	padding-top: 14px;
+}
+
+.contact-form-capcha {
+	width: 191px;
+	height: 79px;
+	background-color: #fbfcfd;
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+	float: left;
+}
+
+.contact-form-capcha-text {
+	color: #58697a;
+	font-family: Ogilvie;
+	font-size: 43px;
+	position: relative;
+	top: 15px;
+	left: 27px;
+}
+
+.contact-form-capcha-input-text {
+	width: 192px;
+	height: 32px;
+	position: relative;
+	top: 22px;
+	left: 19px;
+}

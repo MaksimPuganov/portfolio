@@ -17,11 +17,11 @@
 		<link rel="stylesheet" href="fonts/fira/fira.css">
 		<link rel="stylesheet" href="fonts/proxima/proxima.css">
 		<!-- main CSS -->
+		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/socials.css">
 		<link rel="stylesheet" href="css/about.css">
-		<link rel="stylesheet" href="css/work.css">
 		<link rel="stylesheet" href="css/contacts-icon.css">
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/contacts-form.css">
 		<!-- JS -->
 	    <script src="bower/modernizer/modernizr.js"></script>
 	    <!--[if lt IE 9]>
@@ -71,20 +71,39 @@
 						</address>
 					</aside>
 
-					<div class="gallery">
-							<h2 class="info-h2">Мои работы</h2>
-							<div class="gallery-item">
-								<div class="gallery-img">
-									<img src="img/gallery/site1.png" alt="">
-									<div class="gallery-text-hover">
-										<a href="#" class="gallery-link-hover">название</a>
-									</div>
+					<div class="contact-form-block">
+						<div class="contact-form-header">
+							<h2 class="contact-form-h2">У вас интересный проект? Напишите мне</h2>
+						</div>
+						<form action="" metod="post" class="contact-form">
+							<label class="contact-form-lable">
+								<div class="contact-from-title">
+									Имя
 								</div>
-								<div class="gallery-discr">
-									<a href="#" class="gallery-link">www.site.ru</a>
-									<p class="gallery-text">Информация о проекте 1 превью 2 строки....</p>
+								<input type="text" class="contact-form-input-text" placeholder="Как к вам обращаться">
+							</label>
+							<label class="contact-form-lable">
+								<div class="contact-from-title">
+									Email
 								</div>
-							</div>
+								<input type="text" class="contact-form-input-text" placeholder="Куда Вам отвечать">
+							</label>
+							<label class="contact-form-lable">
+								<div class="contact-from-title">
+									Описание
+								</div>
+								<textarea type="text" name="" class="contact-form-textarea" placeholder="Несколько слов о вашем проекте"></textarea>
+							</label>
+							<label class="contact-form-lable-capcha">
+								<div class="contact-from-title">
+									Введите код, указанный на картинке
+								</div>
+								<div class="contact-form-capcha">
+									<span class="contact-form-capcha-text">E0Ed3r</span>
+								</div>
+								<input type="text" class="contact-form-capcha-input-text" placeholder="Введите код">
+							</label>
+						</form>
 					</div>
 				</div>
 			</div>
