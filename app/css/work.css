@@ -62,13 +62,18 @@
 	width: 66px;
 }
 
-.gallery-img:hover .gallery-text-hover {
+.gallery-img:hover .gallery-text-hover, .gallery-link-add:hover .gallery-text-hover {
 	display: block; 
     width: 142px;
     height: 87px;
     cursor: pointer;
     border: 2px solid #3ba8c0;
 	border-radius: 4px;
+}
+
+.gallery-link-add .gallery-link-hover {
+	width: 107px;
+	margin-left: 17px;
 }
 
 .gallery-link {
@@ -113,7 +118,7 @@
 	font-family: 'fira_sansbook';
 	font-size: 13px;
 	position: relative;
-	top: 28px;
+	top: 16px;
 }
 .gallery-link-add-text {
 	position: relative;

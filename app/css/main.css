@@ -11,6 +11,11 @@ body {
 	background-repeat: repeat;
 }
 
+ul {
+	margin: 0;
+	list-style: none;
+}
+
 .wrapper {
 	position: relative;
 	min-height: 100%;
