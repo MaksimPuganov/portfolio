@@ -106,3 +106,89 @@
 	top: -65px;
 	right: -40px;
 }
+
+.popup {
+	display: none;
+	width: 362px;
+	height: 493px;
+	background-color: #eff3f7;
+	border-radius: 4px;
+	box-shadow: 0 6px 12.5px 0.5px rgba(13, 16, 7, 0.35);
+	position: relative;
+}
+
+.popup-inner {
+	padding: 20px;
+}
+
+.form-popup-header {
+	width: 100%;
+	height: 41px;
+	background-color: #48cbe8;
+	border-radius: 4px;
+}
+
+.form-popup-header:after {
+	width: 100%;
+	height: 9px;
+	background-color: #67dffa;
+}
+
+.form-popup-h2 {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: 'fira_sansbook';
+	color: white;
+}
+
+.form-popup-label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form-popup-input-text {
+	color: #48cbe8;
+	font-size: 13px;
+	line-height: 16px;
+	padding: 10px;
+	width: 300px;
+	background-color: #fbfcfd;
+	border: 1px solid #48cbe8;
+	border-radius: 4px;
+}
+
+.form-popup-input-file {
+	width: 272px;
+	height: 41px;
+	color: #48cbe8;
+	font-size: 13px;
+	line-height: 16px;
+	background-color: #fbfcfd;
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+	padding: 0;
+}
+
+.form-popup-input-file-origin {
+	position: absolute;
+	top: 0;
+	left: -9999px;
+}
+
+.form-popup-input-fake {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 40px;
+	line-height: 42px;
+}
+
+.form-popup-input-file-icon {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	left: 280px;
+	background-image: url(../img/file-icon.png) center center no-repeat;
+}
