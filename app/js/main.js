@@ -20,4 +20,6 @@ $(document).ready(function() {
 		$('.form-popup-input-fake').text(pureVal);
 
 	});
+
+	 $('input, textarea').placeholder();
 })

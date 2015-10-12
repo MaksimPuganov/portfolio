@@ -4,7 +4,7 @@ html, body {
     padding: 0;
 }
 body {
-	font-family: normal 'fira_sanslight';
+	font-family: 'fira_sansbook';
 	font-size:  1em;
 	color: #4a545d;
 	background-image: url(../img/comppattern2.png);
@@ -259,3 +259,8 @@ h2 {
 	background-repeat: no-repeat;
 	text-decoration: underline;
 }*/
+
+.placeholder {
+	color:#48cbe8;
+	padding-bottom: 10px;
+}

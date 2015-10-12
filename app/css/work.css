@@ -288,15 +288,15 @@ input[placeholder]         {
 }
 input::-moz-placeholder     {
 	color:#48cbe8;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
 }
 input:-moz-placeholder      {
 	color:#48cbe8;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
 }
 input:-ms-input-placeholder {
 	color:#48cbe8;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
 }
 
 textarea::-webkit-input-placeholder {color:#48cbe8;}
