@@ -68,10 +68,23 @@
 .contact-form-lable-capcha {
 	float: left;
 }
-input[placeholder]          {color:#48cbe8;}
-input::-moz-placeholder     {color:#48cbe8;}
-input:-moz-placeholder      {color:#48cbe8;}
-input:-ms-input-placeholder {color:#48cbe8;}
+
+input[placeholder]         {
+	color:#48cbe8;
+	padding-bottom: 2px;
+}
+input::-moz-placeholder     {
+	color:#48cbe8;
+    padding-bottom: 2px;
+}
+input:-moz-placeholder      {
+	color:#48cbe8;
+    padding-bottom: 2px;
+}
+input:-ms-input-placeholder {
+	color:#48cbe8;
+    padding-bottom: 2px;
+}
 
 .contact-form-input-text, .contact-form-capcha-input-text {
 	width: 184px;

@@ -8,5 +8,16 @@ $(document).ready(function() {
 		$('.popup').bPopup({
 			closeClass : 'popup-close'
 		});
-	})
+	});
+
+    $('.form-popup-input-file-origin').on('change', function(){
+
+		var
+			$this = $(this),
+			value = $this.val(),
+			pureVal = value.replace(/c:\\fakepath\\/gmi, "");
+
+		$('.form-popup-input-fake').text(pureVal);
+
+	});
 })
