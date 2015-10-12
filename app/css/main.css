@@ -16,6 +16,11 @@ ul {
 	list-style: none;
 }
 
+h2 {
+	margin:0;
+	font-family:'fira_sansbook';
+}
+
 .wrapper {
 	position: relative;
 	min-height: 100%;

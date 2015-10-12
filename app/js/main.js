@@ -6,7 +6,7 @@ $(document).ready(function() {
 		e.preventDefault();
 
 		$('.popup').bPopup({
-			closeClass : 'popup__close'
+			closeClass : 'popup-close'
 		});
 	})
 })

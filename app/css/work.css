@@ -118,7 +118,7 @@
 	font-family: 'fira_sansbook';
 	font-size: 13px;
 	position: relative;
-	top: 16px;
+	top: 20px;
 }
 .gallery-link-add-text {
 	position: relative;
@@ -142,22 +142,35 @@
 
 .form-popup-header {
 	width: 100%;
-	height: 41px;
+	height: 51px;
 	background-color: #48cbe8;
 	border-radius: 4px;
 }
 
 .form-popup-header:after {
+	content: " ";
+	display: block;
 	width: 100%;
 	height: 9px;
 	background-color: #67dffa;
+	float: left;
 }
 
 .form-popup-h2 {
 	text-transform: uppercase;
 	font-size: 25px;
-	font-family: 'fira_sansbook';
+	font-weight: 400;
 	color: white;
+	float: left;
+	margin-left: 12px;
+	margin-top: 7px;
+}
+.popup-close {
+	display: block;
+	float: right;
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/close-icon.png) center no-repeat;
 }
 
 .form-popup-label {
@@ -186,6 +199,7 @@
 	border: 1px solid #48cbe8;
 	border-radius: 3px;
 	padding: 0;
+	position: relative;
 }
 
 .form-popup-input-file-origin {
