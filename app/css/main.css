@@ -21,6 +21,29 @@ h2 {
 	font-family:'fira_sansbook';
 }
 
+input::-webkit-input-placeholder     {
+	color:#48cbe8;
+    padding-bottom: 2px;
+}
+input::-moz-placeholder     {
+	color:#48cbe8;
+    padding-bottom: 2px;
+}
+input:-moz-placeholder      {
+	color:#48cbe8;
+    padding-bottom: 2px;
+}
+input:-ms-input-placeholder {
+	color:#48cbe8;
+    padding-bottom: 2px;
+}
+
+textarea::-webkit-input-placeholder {color:#48cbe8;}
+textarea::-moz-placeholder          {color:#48cbe8;}/* Firefox 19+ */
+textarea:-moz-placeholder           {color:#48cbe8;}/* Firefox 18- */
+textarea:-ms-input-placeholder      {color:#48cbe8;}
+
+
 .wrapper {
 	position: relative;
 	min-height: 100%;

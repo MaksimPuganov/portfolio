@@ -68,22 +68,6 @@
 	float: left;
 }
 
-input[placeholder]         {
-	color:#48cbe8;
-	padding-bottom: 2px;
-}
-input::-moz-placeholder     {
-	color:#48cbe8;
-    padding-bottom: 2px;
-}
-input:-moz-placeholder      {
-	color:#48cbe8;
-    padding-bottom: 2px;
-}
-input:-ms-input-placeholder {
-	color:#48cbe8;
-    padding-bottom: 2px;
-}
 
 .contact-form-input-text, .contact-form-capcha-input-text {
 	width: 184px;
@@ -96,13 +80,6 @@ input:-ms-input-placeholder {
 	padding-left: 10px;
 	color:#48cbe8;
 }
-
-
-textarea::-webkit-input-placeholder {color:#48cbe8;}
-textarea::-moz-placeholder          {color:#48cbe8;}/* Firefox 19+ */
-textarea:-moz-placeholder           {color:#48cbe8;}/* Firefox 18- */
-textarea:-ms-input-placeholder      {color:#48cbe8;}
-
 .contact-form-textarea {
 	resize: none;
 	width: 402px;
@@ -113,7 +90,6 @@ textarea:-ms-input-placeholder      {color:#48cbe8;}
 	float: left;
 	font-family: 'fira_sansbook';
 	font-size: 13px;
-	line-height: 16px;
 	color:#48cbe8;
 	padding-left: 10px;
 	padding-top: 14px;

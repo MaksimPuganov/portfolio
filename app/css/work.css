@@ -191,7 +191,6 @@
 .form-popup-input-text {
 	color: #48cbe8;
 	font-size: 13px;
-	line-height: 16px;
 	padding: 10px;
 	width: 300px;
 	background-color: #fbfcfd;
@@ -204,7 +203,6 @@
 	height: 41px;
 	color: #48cbe8;
 	font-size: 13px;
-	line-height: 16px;
 	background-color: #fbfcfd;
 	border: 1px solid #48cbe8;
 	border-radius: 3px;
@@ -254,7 +252,6 @@
 	border-radius: 4px;
 	color: #48cbe8;
 	font-size: 13px;
-	line-height: 16px;
 	font-weight: 300;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -281,25 +278,3 @@
 	box-shadow:         0px 4px 0px #3ba8c0;
 	display: inline-block;
 }
-
-input[placeholder]         {
-	color:#48cbe8;
-	padding-bottom: 2px;
-}
-input::-moz-placeholder     {
-	color:#48cbe8;
-    padding-bottom: 10px;
-}
-input:-moz-placeholder      {
-	color:#48cbe8;
-    padding-bottom: 10px;
-}
-input:-ms-input-placeholder {
-	color:#48cbe8;
-    padding-bottom: 10px;
-}
-
-textarea::-webkit-input-placeholder {color:#48cbe8;}
-textarea::-moz-placeholder          {color:#48cbe8;}/* Firefox 19+ */
-textarea:-moz-placeholder           {color:#48cbe8;}/* Firefox 18- */
-textarea:-ms-input-placeholder      {color:#48cbe8;}
