@@ -129,7 +129,7 @@
 .popup {
 	display: none;
 	width: 362px;
-	height: 493px;
+	height: 550px;
 	background-color: #eff3f7;
 	border-radius: 4px;
 	box-shadow: 0 6px 12.5px 0.5px rgba(13, 16, 7, 0.35);
@@ -145,6 +145,7 @@
 	height: 51px;
 	background-color: #48cbe8;
 	border-radius: 4px;
+	margin-bottom: 15px;
 }
 
 .form-popup-header:after {
@@ -278,3 +279,29 @@
 	box-shadow:         0px 4px 0px #3ba8c0;
 	display: inline-block;
 }
+
+.message {
+    border-radius: 4px;
+    border: 1px solid;
+    font-size: 12px;
+    width: 94%;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 6px;
+    display: none;
+    text-align: center;
+}
+
+.error-message {
+    background-color: #fad2d1;
+    border-color: #f97e76;
+    color: #f97e76;
+}
+
+.success-message {
+    background-color: #b8e1ce;
+    border-color: #49bb7b;
+    color: #49bb7b;
+}
+
