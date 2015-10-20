@@ -2,13 +2,13 @@ $(document).ready(function() {
     console.log('js запустился');
     console.log($);
 
-    $('.trigger').on('click', function(e) {
-		e.preventDefault();
+ //    $('.trigger').on('click', function(e) {
+	// 	e.preventDefault();
 
-		$('.popup').bPopup({
-			closeClass : 'popup-close'
-		});
-	});
+	// 	$('.popup').bPopup({
+	// 		closeClass : 'popup-close'
+	// 	});
+	// });
 
     $('.form-popup-input-file-origin').on('change', function(){
 

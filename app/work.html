@@ -1,5 +1,5 @@
 	<!DOCTYPE html>
-	<html lang="ru">
+	<html lang="ru-RU">
 	<head>
 		<meta charset="UTF-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -127,25 +127,25 @@
 										<span class="gallery-link-add-text">Добавить проект</span>
 									</a>
 
-									<div class="popup">
+									<div id="" class="popup">
 										<div class="form-popup-header">
 											<h2 class="form-popup-h2">Добавление проекта</h2>
 											<a href="#" class="popup-close"></a>
 										</div>
 										<div class="popup-inner">
-											<form action="" method="post" class="form-popup">
+											<form id="add-project" role="form" class="form-popup">
 												<label class="form-popup-label">
 													<div class="form-popup-title">
 														Название проекта
 													</div>
-													<input type="text" class="form-popup-input-text" placeholder="Введите название">
+													<input type="text" class="form-popup-input-text" name="nameProject" placeholder="Введите название">
 												</label>
 												<label class="form-popup-label">
 													<div class="form-popup-title">
 														Картинка проекта
 													</div>
 													<div class="form-popup-input-file">
-														<input type="file" class="form-popup-input-file-origin">
+														<input type="file" class="form-popup-input-file-origin" name="fileurl">
 														<div class="form-popup-input-fake">Добавить файл</div>
 														<div class="form-popup-input-file-icon"></div>
 													</div>
@@ -154,13 +154,13 @@
 													<div class="form-popup-title">
 														URL проекта
 													</div>
-													<input type="text" class="form-popup-input-text" placeholder="Добавьте ссылку">
+													<input type="text" class="form-popup-input-text" name="urlProject" placeholder="Добавьте ссылку">
 												</label>
 												<label class="form-popup-label">
 													<div class="form-popup-title">
 														Описание
 													</div>
-													<textarea name="" class="form-popup-textarea" placeholder="Несколько слов о проекте"></textarea>
+													<textarea class="form-popup-textarea" name="text" placeholder="Несколько слов о проекте"></textarea>
 												</label>
 												<div class="form-popup-submit-wrap">
 													<input type="submit" class="form-popup-submit" value="Добавить">
@@ -188,6 +188,7 @@
 	    <script src="../bower/bPopup/jquery.bpopup.js"></script>
 	    <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
 	    <!-- JS -->
+	    <script src="js/project.js"></script>
 	    <script src="../js/main.js"></script>
 </body>
 </html>
