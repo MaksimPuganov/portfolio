@@ -143,10 +143,49 @@
 	float: left;
 }
 
+.button-send:hover {
+/*    padding-bottom: 4px;*/
+    -webkit-box-shadow: 0px 0px 0px #3ba8c0;
+	-moz-box-shadow:    0px 0px 0px #3ba8c0;
+	box-shadow:         0px 0px 0px #3ba8c0;
+}
+
+.button-send:focus {
+    -webkit-box-shadow: 0px -4px 0px #3ba8c0;
+	-moz-box-shadow:    0px -4px 0px #3ba8c0;
+	box-shadow:         0px -4px 0px #3ba8c0;
+    border: 0;
+}
+
 .button-reset {
 	background-color: #849db5;
 	-webkit-box-shadow: 0px 4px 0px #687b8f;
 	-moz-box-shadow:    0px 4px 0px #687b8f;
 	box-shadow:         0px 4px 0px #687b8f;
 	float: right;
+}
+
+.button-reset:hover {
+    -webkit-box-shadow: 0px 0px 0px #687b8f;
+	-moz-box-shadow:    0px 0px 0px #687b8f;
+	box-shadow:         0px 0px 0px #687b8f;
+}
+
+.button-reset:focus {
+    -webkit-box-shadow: 0px -4px 0px #687b8f;
+	-moz-box-shadow:    0px -4px 0px #687b8f;
+	box-shadow:         0px -4px 0px #687b8f;
+}
+
+.has-error {
+    background-color: #fad2d1 !important;
+    border-color: #f97e76 !important;
+}
+
+.qtip-mystyle {
+    background-color: #f97e76;
+    border-color: #f97e76;
+    font-family: 'fira_sansbook';
+    color: #ffffff;
+    font-size: 13px;
 }

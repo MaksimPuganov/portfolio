@@ -1,6 +1,8 @@
 {
   "name": "portfolio",
-  "dependencies": {},
+  "dependencies": {
+    "qtip2": "~2.2.1"
+  },
   "devDependencies": {
     "modernizer": "~2.8.2",
     "jquery": "1.11",

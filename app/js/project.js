@@ -32,24 +32,30 @@ var myModule = (function () {
 			//объявление переменных	
 			var form = $(this),
 				url = 'add_project.php',
-				serverAnswer = _ajaxProject(form, url);
-			//запрос на сервер 
-			serverAnswer.done(function(answer) {
-				var successBlock = form.find('.success-message'),
-					errorBlock = form.find('.error-message');
+				defObj = _ajaxProject(form, url);
 
-				if (answer.status === "OK") {
-					errorBlock.hide();
-					successBlock.text(answer.text).show();
-					console.log('Все прошло успешно!');
-				}else {
-					successBlock.hide();
-					errorBlock.text(answer.text).show();
-				};
-			});
+            if(defObj) {
+
+                //запрос на сервер
+                defObj.done(function(answer) {
+                    var successBlock = form.find('.success-message'),
+                        errorBlock = form.find('.error-message');
+
+                    if (answer.status === "OK") {
+                        errorBlock.hide();
+                        successBlock.text(answer.text).show();
+                        console.log('Все прошло успешно!');
+                    }else {
+                        successBlock.hide();
+                        errorBlock.text(answer.text).show();
+                    };
+                });
+            }
 		};
 
 	var _ajaxProject = function (form, url) {
+
+        if (!validation.validForm(form)) return false;
 
 		data = form.serialize();
 

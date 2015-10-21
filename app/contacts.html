@@ -13,6 +13,7 @@
 		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 		<!-- vendor CSS -->
 	    <link href="bower/normalize-css/normalize.css" rel="stylesheet">
+	    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
 	    <!-- font CSS -->
 		<link rel="stylesheet" href="fonts/fira/fira.css">
 		<link rel="stylesheet" href="fonts/proxima/proxima.css">
@@ -76,24 +77,24 @@
 						<div class="contact-form-header">
 							<h2 class="contact-form-h2">У вас интересный проект? Напишите мне</h2>
 						</div>
-						<form action="" metod="post" class="contact-form">
+						<form action="" metod="post" class="contact-form" id="contact">
 							<label class="contact-form-lable pull-left clearfix">
 								<div class="contact-from-title">
 									Имя
 								</div>
-								<input type="text" class="contact-form-input-text" placeholder="Как к вам обращаться">
+								<input type="text" class="contact-form-input-text" qtip-content ="Вы не ввели имя"  qtip-position="left" placeholder="Как к вам обращаться">
 							</label>
 							<label class="contact-form-lable pull-right clearfix">
 								<div class="contact-from-title">
 									Email
 								</div>
-								<input type="text" class="contact-form-input-text" placeholder="Куда Вам отвечать">
+								<input type="text" class="contact-form-input-text" qtip-content ="Вы не ввели адрес почты" qtip-position="right" placeholder="Куда Вам отвечать">
 							</label>
 							<label class="contact-form-lable">
 								<div class="contact-from-title">
 									Описание
 								</div>
-								<textarea type="text" name="" class="contact-form-textarea" placeholder="Несколько слов о вашем проекте"></textarea>
+								<textarea type="text" name="" class="contact-form-textarea" qtip-content ="Заполните описание" qtip-position="left" data-hasqtip="2" aria-describedby="qtip-2" placeholder="Несколько слов о вашем проекте"></textarea>
 							</label>
 							<label class="contact-form-lable-capcha">
 								<div class="contact-from-title">
@@ -102,7 +103,7 @@
 								<div class="contact-form-capcha">
 									<span class="contact-form-capcha-text">E0Ed3r</span>
 								</div>
-								<input type="text" class="contact-form-capcha-input-text" placeholder="Введите код">
+								<input type="text" class="contact-form-capcha-input-text" qtip-content ="Вы не ввели код" qtip-position="right" placeholder="Введите код">
 							</label>
 							<label class="contact-form-lable clearfix">
 								<button class="contact-form-button button-send" type="submit">Отправить</button>
@@ -125,7 +126,10 @@
 		<!-- vendor JS -->
 	    <script src="bower/jquery/dist/jquery.js"></script>
 	    <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+	    <script src="bower/qtip2/jquery.qtip.js"></script>
 	    <!-- JS -->
 	    <script src="js/main.js"></script>
+	    <script src="js/valid.js"></script>
+	    <script src="js/contact.js"></script>
 </body>
 </html>

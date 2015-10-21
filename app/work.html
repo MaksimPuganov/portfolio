@@ -13,6 +13,7 @@
 		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 		<!-- vendor CSS -->
 	    <link href="bower/normalize-css/normalize.css" rel="stylesheet">
+	    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
 	    <!-- font CSS -->
 		<link rel="stylesheet" href="fonts/fira/fira.css">
 		<link rel="stylesheet" href="fonts/proxima/proxima.css">
@@ -21,6 +22,7 @@
 		<link rel="stylesheet" href="css/about.css">
 		<link rel="stylesheet" href="css/work.css">
 		<link rel="stylesheet" href="css/contacts-icon.css">
+		<link rel="stylesheet" href="css/contacts-form.css">
 		<link rel="stylesheet" href="css/main.css">
 		<!-- JS -->
 	    <script src="bower/modernizer/modernizr.js"></script>
@@ -140,14 +142,14 @@
 													<div class="form-popup-title">
 														Название проекта
 													</div>
-													<input type="text" class="form-popup-input-text" name="nameProject" placeholder="Введите название">
+													<input type="text" class="form-popup-input-text" name="nameProject" qtip-content ="вы забыли добавить название проекта" placeholder="Введите название">
 												</label>
 												<label class="form-popup-label">
 													<div class="form-popup-title">
 														Картинка проекта
 													</div>
 													<div class="form-popup-input-file">
-														<input type="file" class="form-popup-input-file-origin" name="fileurl">
+														<input type="file" class="form-popup-input-file-origin" name="fileurl" qtip-content ="Вы забыли добавить картинку" >
 														<div class="form-popup-input-fake">Добавить файл</div>
 														<div class="form-popup-input-file-icon"></div>
 													</div>
@@ -156,13 +158,13 @@
 													<div class="form-popup-title">
 														URL проекта
 													</div>
-													<input type="text" class="form-popup-input-text" name="urlProject" placeholder="Добавьте ссылку">
+													<input type="text" class="form-popup-input-text" name="urlProject" placeholder="Добавьте ссылку" qtip-content ="Вы забыли добавить ссылку" qtip-position="">
 												</label>
 												<label class="form-popup-label">
 													<div class="form-popup-title">
 														Описание
 													</div>
-													<textarea class="form-popup-textarea" name="text" placeholder="Несколько слов о проекте"></textarea>
+													<textarea class="form-popup-textarea" name="text" placeholder="Несколько слов о проекте" qtip-content ="Вы забыли добавить описание" qtip-position="left" data-hasqtip="2" aria-describedby="qtip-2"></textarea>
 												</label>
 												<div class="form-popup-submit-wrap">
 													<input type="submit" class="form-popup-submit" value="Добавить">
@@ -189,8 +191,10 @@
 	    <script src="../bower/jquery/dist/jquery.js"></script>
 	    <script src="../bower/bPopup/jquery.bpopup.js"></script>
 	    <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+	    <script src="bower/qtip2/jquery.qtip.js"></script>
 	    <!-- JS -->
-	    <script src="js/project.js"></script>
 	    <script src="../js/main.js"></script>
+	    <script src="js/valid.js"></script>
+	    <script src="js/project.js"></script>
 </body>
 </html>
