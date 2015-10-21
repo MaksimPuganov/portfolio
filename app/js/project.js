@@ -21,6 +21,7 @@ var myModule = (function () {
 			closeClass : 'popup-close',
 			onClose : function () {
 				form.find('.message').text('').hide();
+                form.trigger('reset');
 			}
 			});
 		};
