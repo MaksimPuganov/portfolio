@@ -31,8 +31,8 @@ var validation = (function () {
             }
         }else {
             pos = {
-                my: 'left center',
-                at: 'right center',
+                my: 'right center',
+                at: 'left center',
                 adjust: {
                     method: 'shift none'
                 }
