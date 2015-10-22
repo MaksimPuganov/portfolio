@@ -32,10 +32,7 @@ var validation = (function () {
         }else {
             pos = {
                 my: 'right center',
-                at: 'left center',
-                adjust: {
-                    method: 'shift none'
-                }
+                at: 'left center'
             }
         };
 
