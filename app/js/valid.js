@@ -70,7 +70,7 @@ var validation = (function () {
 
             var elm = $(value),
                 val = elm.val(),
-                pos = elm.attr('qtip-content');
+                pos = elm.attr('qtip-position');
 
             if(val.length === 0) {
                 elm.addClass('has-error');
