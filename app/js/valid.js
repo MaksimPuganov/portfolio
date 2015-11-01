@@ -64,6 +64,8 @@ var validation = (function () {
 
         var elms = form.find('input, textarea').not('input[type="file"], input[type="hidden"]'),
             valid = true;
+        
+        console.log(form);
 
         //Проход по элементам формы
         $.each(elms, function(index,value){

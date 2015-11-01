@@ -13,6 +13,7 @@
 		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 		<!-- vendor CSS -->
 	    <link href="bower/normalize-css/normalize.css" rel="stylesheet">
+        <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
 	    <!-- font CSS -->
 		<link rel="stylesheet" href="fonts/fira/fira.css">
 		<link rel="stylesheet" href="fonts/proxima/proxima.css">
@@ -41,18 +42,18 @@
 							<h2 class="form-login-h2">Авторизируйтесь</h2>
 						</div>
 						<div class="form-login-inner">
-							<form action="" method="post" class="form-login">
+							<form action="" class="form-login">
 								<label class="form-login-label">
 									<div class="form-login-title">
 										Логин
 									</div>
-									<input type="text" class="form-login-input-text" placeholder="Введите логин">
+									<input type="text" class="form-login-input-text" qtip-content ="Введите логин" qtip-position="right" placeholder="Введите логин">
 								</label>
 								<label class="form-login-label">
 									<div class="form-login-title">
 										Пароль
 									</div>
-									<input type="password" class="form-login-input-text" placeholder="Введите пароль">
+									<input type="password" class="form-login-input-text" qtip-content ="Введите пароль" qtip-position="right" placeholder="Введите пароль">
 								</label>
 								<div class="form-login-submit-wrap">
 									<input type="submit" class="form-login-submit" value="Войти">
@@ -75,7 +76,10 @@
 		<!-- vendor JS -->
 	    <script src="bower/jquery/dist/jquery.js"></script>
 	    <script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+        <script src="bower/qtip2/jquery.qtip.js"></script>
 	    <!-- JS -->
 	    <script src="js/main.js"></script>
+        <script src="js/valid.js"></script>
+		<script src="js/login.js"></script>
 </body>
 </html>
