@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    console.log('js запустился');
-    console.log($);
+    //console.log('js запустился');
+    //console.log($);
 
  //    $('.trigger').on('click', function(e) {
 	// 	e.preventDefault();

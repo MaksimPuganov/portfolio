@@ -200,42 +200,28 @@
 }
 
 .form-popup-input-file {
-	width: 272px;
-	height: 41px;
-	color: #48cbe8;
-	font-size: 13px;
-	background-color: #fbfcfd;
-	border: 1px solid #48cbe8;
-	border-radius: 3px;
-	padding: 0;
+	line-height: 41px;
+	height: 19px;
 	position: relative;
+	cursor: pointer;
+	background: #fff;
+	width: 300px;
+	font-size: 0.8em;
+	color: #48cbe8;
+	border-radius: 4px;
+	border: 1px solid #48cbe8;
+	padding: 10px;
+	line-height: 19px;
+	overflow: hidden;
 }
 
-.form-popup-input-file-origin {
+.form-input-file-icon{
 	position: absolute;
-	top: 0;
-	left: -9999px;
-}
-
-.form-popup-input-fake {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 40px;
-	line-height: 42px;
-	width: 100%;
-	padding-left: 10px;
-}
-
-.form-popup-input-file-icon {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-    top: -1px;
-    left: 268px;
-    width: 52px;
-    height: 43px;
+	top: -1px;
+	left: 268px;
+	width: 52px;
+	height: 43px;
+	overflow: hidden;
 	background-color: #48cbe8;
 	background-image: url(../img/file-icon.png);
 	background-repeat: no-repeat;
@@ -278,6 +264,29 @@
 	-moz-box-shadow:    0px 4px 0px #3ba8c0;
 	box-shadow:         0px 4px 0px #3ba8c0;
 	display: inline-block;
+}
+
+.form-input-file-origin {
+	position: absolute;
+	top: 0;
+	left: -9999px;
+}
+
+.form-input-fake {
+	width: 100%;
+	background-color: #fff;
+	outline: none;
+	border: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0px;
+	right: 52px;
+	color: #48cbe8;
+	border-radius: 4px;
+	padding: 10px;
+	line-height: 19px;
+	overflow: hidden;
 }
 
 .message {
