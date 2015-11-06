@@ -1,25 +1,20 @@
 $(document).ready(function() {
-    //console.log('js запустился');
-    //console.log($);
 
- //    $('.trigger').on('click', function(e) {
-	// 	e.preventDefault();
-
-	// 	$('.popup').bPopup({
-	// 		closeClass : 'popup-close'
-	// 	});
-	// });
-
-    $('.form-popup-input-file-origin').on('change', function(){
+    // запуск функции по событию change в input[type='file']
+    $('.form-input-file-origin').on('change', function(){
 
 		var
 			$this = $(this),
-			value = $this.val(),
-			pureVal = value.replace(/c:\\fakepath\\/gmi, "");
+			value = $this.val(), // сохраняем путь к файлу
+			pureVal = value.replace(/c:\\fakepath\\/gmi, ""); //убираем путь к файлу, оставляем только имя и расширение
 
-		$('.form-popup-input-fake').text(pureVal);
+        $('#file-name')
+            .val(pureVal)
+            .trigger('hideTooltip')
+            .removeClass('has-error');
 
 	});
 
+    //Placeholder
 	 $('input, textarea').placeholder();
-})
+});
